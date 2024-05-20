@@ -1,0 +1,17 @@
+.sidebar{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    width:100px;
+    
+    
+    
+  
+    
+}
+.sidebar_heading{
+    font-size: 15px;
+    margin:0;
+    margin-left: 20px;
+}

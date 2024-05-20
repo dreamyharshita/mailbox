@@ -1,0 +1,177 @@
+.email_list{
+display: flex;
+flex-direction: column;
+}
+
+.emailList_setting{
+display: flex;
+align-items: center;
+position: sticky;
+top:0;
+justify-content: space-between;
+border-bottom: 1px solid whitesmoke;
+}
+.fa{
+    font-size: 18px;
+    margin-right:10px ;
+}
+.fa:hover{
+    background-color: rgb(255, 255, 255);
+}
+.emailList_left{
+    display: flex;
+    flex:0.2;
+ justify-content: space-between;
+ align-items: center;
+}
+.emailList_settingRight{
+    display: flex;
+    flex:0.2;
+    align-items: center;
+    justify-content: space-between;
+}
+.emailList_settingRight p{
+    font-size:13px ;
+}
+.emailtype{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+}
+.emailtype_options:hover{
+    background-color: whitesmoke;
+}
+.emailtype_options{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    min-width: 230px;
+    padding:0px 10px;
+     
+}
+.emailtype_options--active{
+    border-bottom: 3px solid red !important;
+}
+.emailtype_options--active p{
+    color: red !important;
+    font-weight: bold;
+}
+.fa_type{
+    margin-right: 10px;
+    font-size: 20px;
+    color:gray;
+}
+
+.emailtype_options p{
+    font-size: 15px;
+}
+.emailbody{
+    display:flex;
+    
+    
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    padding: 0px 10px;
+    height:40px
+}
+.emailbody:hover{
+
+    box-shadow: 2px 2px 4px whitesmoke;
+    cursor: pointer;
+}
+.emailbody_left{
+display: flex;
+min-width: 300px;
+flex:20%;
+align-items: center;
+
+}
+.emailbody_left h4{
+    font-size: 14px;
+    
+}
+.emailbody_middle{
+display: flex;
+align-items: center;
+flex:90%;
+justify-content: space-between;
+
+}
+.emailbody_middle p{
+    
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+     text-overflow: ellipsis;
+     padding: 0px 20px;
+     max-width: 700px;
+}
+.emailbody_mid_msg{
+    display: flex;
+    
+
+}
+.emailbody_right{
+    display: flex;
+align-items: center;
+flex:10%;
+margin-left: 100px;
+}
+.emailbody_right p{
+    font-size: 13px;
+   
+}
+.email_details{
+    box-shadow: 0px 0px 3px #8f8787;
+    height: 100%;
+}
+.topBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    padding: 0px 15px;
+}
+.topBar_left{
+    display: flex;
+    align-items: center;
+    
+}
+.topBar_right{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+.fa_bar{
+    color: gray;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.fa_bar:hover{
+    color: black;
+}
+.midBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    padding: 0px 5px;
+}
+.midBar_left{
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-between;
+}
+.midBar_left p,h4{
+    margin-left: 10px;
+}
+.midBar_right{
+    display: flex;
+    align-items: center;
+}
+.message_body{
+    display: flex;
+    padding: 0px 15px;
+}

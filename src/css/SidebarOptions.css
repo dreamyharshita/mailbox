@@ -1,0 +1,52 @@
+
+.sidebar_option{
+    width:120px;
+}
+.option--active{
+    background-color: rgb(243, 221, 221);
+}
+.option--active h4,
+.option--active p{
+    color:red;
+    font-weight: bold;
+    opacity: 1 !important;
+}
+.option:hover{
+    background-color: whitesmoke;
+    cursor:pointer;
+}
+.option{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    border-top-left-radius: 20px ;
+    border-bottom-right-radius: 20px;
+    padding:0px 25px;
+    margin-right:20px;
+    border-radius: 8px;
+    border-style:ridge;
+    border-color: rgb(253, 253, 253);
+   
+    
+}
+
+
+
+.icon{
+    color:grey;
+    font-size: 20px;
+    width:20px
+}
+.option h4{
+    font-size:14px;
+    flex:1;
+    margin-left: 10px;
+    font-weight: normal;
+}
+.option p{
+   margin-left: 10px;
+    opacity:0;
+    color:red ;
+    font-size: 12px;
+
+}
